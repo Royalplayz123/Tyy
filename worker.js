@@ -44,8 +44,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/nobita329/ptero/main/ptero/r
       });
     }
 
-    // ========= PTERO DOMAIN (RAW CODE, NO POPUP) =========
-    if (host.startsWith("ptero.")) {
+    // ========= HOST DOMAIN (RAW CODE, NO POPUP) =========
+    if (host.startsWith("host.")) {
       return new Response(LOADER_CODE, {
         headers: {
           "Content-Type": "text/plain",
